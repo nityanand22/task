@@ -23,7 +23,7 @@ const SearchBar = () => {
       />
       <button
         type="submit"
-        className="bg-blue-600 text-white px-8 py-3 hover:bg-blue-700 rounded-tl-md rounded-bl-md"
+        className="bg-blue-600 text-white px-8 py-3 hover:bg-blue-700 rounded-tl-md rounded-bl-md active:text-black active:bg-white"
         disabled={!inputValue.trim()}
       >
         Search
